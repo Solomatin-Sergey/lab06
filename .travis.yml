@@ -2,7 +2,7 @@ language: cpp
 
 script:
 - cd solver_application/
-- cmake . && cmake --build . && cmake --build . --target package # генерируется проект, создаётся его двоичное дерево, собирается проект
+# генерируется проект, создаётся его двоичное дерево, собирается проект
 - cmake . && cmake --build . && cmake --build . --target package_source
 
 addons:
