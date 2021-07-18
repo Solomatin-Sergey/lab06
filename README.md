@@ -1,3 +1,4 @@
+[![Build Status](https://www.travis-ci.com/Solomatin-Sergey/lab06.svg?branch=main)](https://www.travis-ci.com/Solomatin-Sergey/lab06)
 # lab06
 ## Изучение средств пакетирования на примере CPack
 
