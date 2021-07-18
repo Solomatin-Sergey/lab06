@@ -21,7 +21,7 @@ install(TARGETS solver DESTINATION bin)
 
 set(CPACK_PACKAGE_NAME "solver") 
 
-set(CPACK_PACKAGE_VENDOR "SuperCompany") 
+set(CPACK_PACKAGE_VENDOR "company") 
 
 set(CPACK_PACKAGE_CONTACT "contact")  
 
