@@ -22,7 +22,7 @@ install(TARGETS solver DESTINATION bin)
 set(CPACK_PACKAGE_NAME "solver") # Название пакета (или приложения). Если не указано, то по умолчанию используется название проекта.
 set(CPACK_PACKAGE_VENDOR "company") # Имя поставщика пакета (например,"Kitware").По умолчанию используется "Humanity".
 set(CPACK_PACKAGE_CONTACT "contact")  
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Nightmare") # если CPACK_DEBIAN_PACKAGE_MAINTAINER не установлен,
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "maintainer") # если CPACK_DEBIAN_PACKAGE_MAINTAINER не установлен,
 # вместо него будет использоваться CPACK_PACKAGE_CONTACT
 set(CPACK_PACKAGE_DESCRIPTION "We use CPack") # описание проекта
 set(CPACK_GENERATOR "DEB" "RPM") #  CPACK_GENERATOR-это список генераторов: 
