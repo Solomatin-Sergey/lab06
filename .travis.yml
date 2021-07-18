@@ -1,0 +1,23 @@
+language: cpp
+
+script:
+- cd solver_application/
+- cmake . && cmake --build . && cmake --build . --target package # генерируется проект, создаётся его двоичное дерево, собирается проект
+- cmake . && cmake --build . && cmake --build . --target package_source
+
+addons:
+apt:
+  sources:
+    - george-edison55-precise-backports
+  packages:
+    - cmake
+    - cmake-data
+    - mingw-w64
+    - rpm
+
+# Эта конфигурация будет использовать «GITHUB OAUTH TOKEN» для загрузки «ФАЙЛА ДЛЯ ЗАГРУЗКИ» (относительно рабочего каталога) в сборках с тегами.
+deploy: 
+provider: releases
+skip_cleanup: true
+on:
+  tags: true
