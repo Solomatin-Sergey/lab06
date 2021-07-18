@@ -25,7 +25,7 @@ set(CPACK_PACKAGE_VENDOR "company")
 
 set(CPACK_PACKAGE_CONTACT "contact")  
 
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Nightmare") 
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "maintainer") 
 
 set(CPACK_PACKAGE_DESCRIPTION "We use CPack") 
 
