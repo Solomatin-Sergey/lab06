@@ -18,11 +18,17 @@
 >> CMakeLists.txt был изменён под использование CPack, т.е. были добавлены следующие строки:
 
 install(TARGETS solver DESTINATION bin)
+
 set(CPACK_PACKAGE_NAME "solver") 
+
 set(CPACK_PACKAGE_VENDOR "SuperCompany") 
-set(CPACK_PACKAGE_CONTACT "some contact")  
+
+set(CPACK_PACKAGE_CONTACT "contact")  
+
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Nightmare") 
-set(CPACK_PACKAGE_DESCRIPTION "What's up, guys? :-)") 
+
+set(CPACK_PACKAGE_DESCRIPTION "We use CPack") 
+
 set(CPACK_GENERATOR "DEB" "RPM")  
 
 >> в .travis.yml в соответсвие с инструкцией (примером) понадобилось добавить следующий код:
